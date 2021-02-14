@@ -1,0 +1,71 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(53, 113, 182);
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    margin: 70px auto;
+    width: 350px;
+    min-height: 300px;
+    max-height: 500px;
+
+    align-items: center;
+    background-color: #F5F5F5;
+
+    border-radius: 8px;
+}
+
+.app h3 {
+    padding: 15px;
+
+    font-family: 'Varela Round';
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#message {
+    padding-left: 10px;
+    width: 300px;
+    height: 30px;
+
+    border: 1px solid grey;
+    outline: none;
+}
+
+#submit {
+    width: 100px;
+    height: 35px;
+    margin-top: 15px;
+
+    font-family: 'Maven Pro';
+
+    background-color: rgb(43, 226, 195);
+
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.title{
+    font-family: 'Varela Round';
+    margin-top: 20px;
+}
+.msg-container {
+    width: 330px;
+    word-wrap: break-word;
+}
+
+.last-message {
+    padding-top: 10px;
+    text-align: center;
+
+    font-family: 'Baloo 2';
+    font-size: 24px;
+    color: rgb(71, 121, 179);
+}
